@@ -1,0 +1,127 @@
+body {
+  background-color: white;
+  color: black;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0px;
+  margin: 0px;
+}
+
+.nav {
+  background-color: cadetblue;
+  color: white;
+}
+
+.nav ul {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+  font-size: 0px;
+}
+
+.nav ul li {
+  padding: 16px;
+  text-align: center;
+  font-size: 1.2rem;
+  border-bottom: 1px solid black;
+  transition: background-color 0.2s;
+}
+
+.nav ul li:hover {
+  background-color: black;
+}
+
+.image-area {
+  background-image:url('images/background1.png');
+  background-color:black;
+  background-position: center center;
+  background-size: cover;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+.centered-container {
+  max-width: 1020px;
+  margin: 0px auto;
+  padding: 0px 16px;
+}
+
+.image-text {
+  text-align: center;
+  background-color: green;
+  color: grey;
+  font-size: 2.5rem;
+}
+
+.intro-text {
+  color: gray;
+  font-size: 1.5rem;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.single-service {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.single-service p {
+  padding: 0px 16px;
+}
+
+
+#form {font-size: 0.8rem;
+  padding: 0;
+  width: 20rem;
+  text-align: center;
+  border: 0.1rem solid #56a5eb;
+  margin-bottom: 1rem;
+  text-decoration: none;
+  color: #56a5eb;
+  background-color: white;
+
+}
+
+.btn {
+  font-size: 1.8rem;
+  padding: 1rem 0;
+  width: 20rem;
+  text-align: center;
+  border: 0.1rem solid #56a5eb;
+  margin-bottom: 1rem;
+  text-decoration: none;
+  color: #56a5eb;
+  background-color: white;
+}
+
+.btn1 {
+  font-size: 1.8rem;
+  padding: 1rem 0;
+  width: 20rem;
+  text-align: center;
+  border: 0.1rem solid #56a5eb;
+  margin-bottom: 1rem;
+  text-decoration: none;
+  color: #111111;
+  background-color: #39CCCC;
+}
+
+
+@media screen and (min-width: 700px) {
+  .nav ul {
+    text-align: right;
+  }
+
+  .nav ul li {
+    display: inline-block;
+    border-bottom: 0px;
+    border-left: 1px solid black;
+    text-align: left;
+  }
+
+  .single-service {
+    width: 50%;
+    float: left;
+  }
+}
